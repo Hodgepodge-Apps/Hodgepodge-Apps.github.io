@@ -8,8 +8,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="./img/favicon.png" rel="icon">
-  <link href="./img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./img/icon.png" rel="icon">
+  <link href="./img/icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -56,21 +56,21 @@
       <div class="col-md-6 my-auto">
         <div class="row mt">
           <div class="col-md-6 mini-box">
-            <img src="img/learn-icon.png" class="img-fluid" width="200px">
+            <a href="#learn"><img src="img/learn-icon.png" class="img-fluid" width="200px"></a>
             <p><b> Memorize names of popular openings sorted from simple to complicated </b></p>
           </div>
           <div class="col-md-6 mini-box">
-            <img src="img/browse-icon.png" class="img-fluid" width="200px">
+            <a href="#browse"><img src="img/browse-icon.png" class="img-fluid" width="200px"></a>
             <p><b> Go through 1769 openings grouped by similarity </b></p> 
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mini-box">
-            <img src="img/test-icon.png" class="img-fluid" width="200px">
+            <a href="#test"><img src="img/test-icon.png" class="img-fluid" width="200px"></a>
             <p><b> When you feel ready, test yourself with flashcards </b></p> 
           </div>
           <div class="col-md-6 mini-box">
-            <img src="img/daily-opening-icon.png" class="img-fluid" width="200px">
+            <a href="#daily-opening"><img src="img/daily-opening-icon.png" class="img-fluid" width="200px"></a>
             <p><b> Get a new opening every day to learn </b></p> 
           </div>
         </div>
@@ -80,73 +80,80 @@
   </div>
   <!--/container -->
 
-  <div id="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mtb">
-          <h2>Learn Opening Names<br/>Commit them to Memory</h2>
-          <hr>
-          <h3>Remember the names of each opening. When you feel ready, press the green checkmark.</h3>
-        </div>
-        <div class="col-md-6 centered">
-          <img src="img/learn-iphone13.png" class="img-fluid" width="450px">
+  <div id="learn">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mtb">
+            <h2>Learn Opening Names<br/>Commit them to Memory</h2>
+            <hr>
+            <h3>Remember the names of each opening. When you feel ready, press the green checkmark.</h3>
+          </div>
+          <div class="col-md-6 centered">
+            <video autoplay loop muted playsinline>
+              <source src="img/LearnVideo.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
       </div>
-      <!--/row -->
     </div>
-    <!-- /.container -->
   </div>
   <!--/Header 2 -->
 
-  <div class="container mb">
-    <div class="row">
-      <div class="col-md-6 centered">
-        <img src="img/browse-iphone13.png" class="img-fluid" width="450px">
-      </div>
-      <div class="col-md-6 mtb">
-        <h2>Browse 1769 Openings</h2>
-        <hr>
-        <h3>All openings are grouped in five. Go through them at your leisure and look at various variations of your favorite openings.</h3>
+  <div id="browse">
+    <div class="container mb">
+      <div class="row">
+        <div class="col-md-6 centered">
+          <img src="img/browse-iphone13.png" class="img-fluid" width="450px">
+        </div>
+        <div class="col-md-6 mtb">
+          <h2>Browse 1769 Openings</h2>
+          <hr>
+          <h3>All openings are grouped in five. Go through them at your leisure and look at various variations of your favorite openings.</h3>
+        </div>
       </div>
     </div>
-    <!--/row -->
   </div>
   <!-- /.container -->
 
-  <div id="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mtb">
-          <h2>Test Your Knowledge<br/>Using Flashcards</h2>
-          <hr>
-          <h3>Test your new knowledge of chess opening names. Names of chess openings you've learned previously will appear and your job is to get them all right with no hints!</h3>
+  <div id="test">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mtb">
+            <h2>Test Your Knowledge<br/>Using Flashcards</h2>
+            <hr>
+            <h3>Test your new knowledge of chess opening names. Names of chess openings you've learned previously will appear and your job is to get them all right with no hints!</h3>
+          </div>
+          <div class="col-md-6 centered">
+            <img src="img/test-iphone13.png" class="img-fluid" width="450px">
+          </div>
         </div>
-        <div class="col-md-6 centered">
-          <img src="img/test-iphone13.png" class="img-fluid" width="450px">
-        </div>
+        <!--/row -->
       </div>
-      <!--/row -->
+      <!-- /.container -->
     </div>
-    <!-- /.container -->
   </div>
   <!--/Header 2 -->
 
-  <div class="container mb">
-    <div class="row">
-      <div class="col-md-6 centered">
-        <img src="img/daily-opening-iphone13.png" class="img-fluid" width="450px">
+  <div id="daily-opening">
+    <div class="container mb">
+      <div class="row">
+        <div class="col-md-6 centered">
+          <img src="img/daily-opening-iphone13.png" class="img-fluid" width="450px">
+        </div>
+        <div class="col-md-6 mtb">
+          <h2>New Daily Opening Every Day</h2>
+          <hr>
+          <h3>Learn the name of a new opening every day, chosen at random. This time, press the calendar when you feel like you've learned the name.</h3>
+        </div>
       </div>
-      <div class="col-md-6 mtb">
-        <h2>New Daily Opening Every Day</h2>
-        <hr>
-        <h3>Learn the name of a new opening every day, chosen at random. This time, press the calendar when you feel like you've learned the name.</h3>
-      </div>
-    </div>
-    <!--/row -->
-    <div class="row">
-      <div class="col mt centered">
-        <h1> Download Here: </h1>
-
+      <!--/row -->
+      <div class="row">
+        <div class="col mt centered">
+          <h3>Download Here:</h3>
+          <a href="https://apps.apple.com/rs/app/chess-openings-train-retain/id1459782470"><img src="img/Download_on_the_App_Store_Black.svg" width="200px"></a>
+        </div>
       </div>
     </div>
   </div>
