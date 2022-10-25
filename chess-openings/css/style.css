@@ -134,6 +134,10 @@ a:hover, a:focus {
   color: #696E74;
 }
 
+video {
+  color: transparent;
+}
+
 /* HEADER CONFIGURATION */
 
 #header {
