@@ -1,0 +1,263 @@
+/**
+* Template Name: CleanLanding
+* Template URL: https://templatemag.com/cleanlanding-bootstrap-landing-template/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #EEEEEE;
+  margin: 0;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #666;
+  margin-top: 10px;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+}
+
+.centered {
+  text-align: center
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.mtb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ptb {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background: #2B2E31;
+}
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #2B2E31;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #696E74;
+}
+
+video {
+  color: transparent;
+  max-width: 480px;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* HEADER CONFIGURATION */
+
+#header {
+  background: #FFAF32;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
+  color: #ccc;
+}
+
+#header h1 {
+  color: #000000;
+  font-size: 51px;
+}
+
+#header h2 {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+#header h3 {
+  color: #555555;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+/*#header hr {
+  width: 20%;
+  border-bottom: 3px solid #ccc;
+}*/
+
+@media (max-width: 768px ) {
+  #header {
+    padding-top: 30px;
+  }
+  .mt {
+    margin-top: 30px;
+  }
+}
+
+.btn-trans {
+  background: transparent;
+  color: #636c6c;
+  font-weight: 700;
+  border: 3px solid #ccc;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.btn-trans:hover {
+  background: white;
+  color: #444;
+}
+
+.btn-green2 {
+  color: #fff;
+  font-size: 18px;
+  min-height: 60px;
+  border-radius: 40px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 24px;
+  padding: 16px 30px 20px;
+  z-index: 1;
+  position: relative;
+  border: none;
+  background: #5dca88;
+}
+
+.btn-green2:hover {
+  background: #21b191;
+  color: white;
+}
+
+/* FOOTER*/
+
+#f {
+  background: #2d312f;
+  color: #8c9494;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#f h4 {
+  color: #8c9494;
+}
+
+#f a {
+  color: #5dca88;
+}
+
+#f a:hover {
+  color: #8c9494;
+}
+
+/* Copyrights */
+
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#copyrights a {
+  color: #5dca88;
+}
+
+.credits {
+  color: #999;
+}
